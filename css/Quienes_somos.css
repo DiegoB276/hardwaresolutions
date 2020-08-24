@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+   
+}
+body{
+    background-color: #cecece;
+}
+
+#principal{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px;
+    margin: auto;
+    background: #36383a;
+
+
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    border: 0px solid #000;
+
+}
+
+#logo{
+    width: 190px;
+    height: 100px;
+    border: 0px solid #000;
+    float: left;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.titulo{
+    font-size: 30px;
+    color: #fff;
+    font-family: Tahoma;
+
+}
+
+.menu{
+    width: 690px;
+    height: 55px;
+    border: 0px solid #ccc;
+    float: right;
+    background: #db0202;
+    margin-top: 20px;
+
+}
+
+
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+    border: 0px solid #ccc;
+    color: #fff;
+    float: right;
+    margin-top: 5px;
+
+}
+
+.menu ul li a:hover{
+    background: #8b0505fd;
+    transition: background 1s, color 1s;
+
+}
+
+#slide{
+    margin-top: 5px;
+    width: 900px;
+    height: 310px;
+
+}
+
+#misions{
+    width: 890px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.mision{
+    width: 435px;
+    height: auto; overflow: hidden;
+    border: 0px solid #cf0101;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.vision{
+    width: 435px;
+    height: auto; overflow: hidden;
+    border: 0px solid #cf0101;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+#titu{
+    color: #750901;
+    font-family: Tahoma;
+    height: 35px;
+
+}
+
+#contact{
+    width: auto;
+    height: 100px;
+    border: 0px solid #fff;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+#pie{
+    text-align: center;
+    color: #ccc;
+    margin: auto;
+    border: 1px solid #fff;
+}
+
+.submenu{
+    position: absolute;
+    background: #db0202;
+    margin-top: 37px;
+    width: 195px;
+    display: none;
+}
+
+.menu2 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: tahoma;
+  text-decoration: none
+}
+
+.menu2 li:hover .submenu{
+    display: block;
+    background: static;
+    
+}

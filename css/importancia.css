@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+body{
+    background-color: #cecece;
+}
+
+#principal{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px;
+    margin: auto;
+    background: #36383a;
+
+
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    border: 0px solid #000;
+
+}
+
+#logo{
+    width: 190px;
+    height: auto; overflow: hidden;
+    border: 0px solid #000;
+    float: left;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.titulo{
+    font-size: 30px;
+    color: #fff;
+    font-family: Tahoma;
+
+}
+
+.menu{
+    width: 690px;
+    height: 55px;
+    border: 0px solid #ccc;
+    float: right;
+    background: rgb(0, 108, 128);
+    margin-top: 20px;
+
+}
+
+
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-top: 5px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+    border: 0px solid #ccc;
+    color: #fff;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.menu ul li a:hover{
+    background: #004257;
+    transition: background 1s, color 1s;
+ 
+    
+}
+
+.submenu{
+    position: absolute;
+    background:rgb(0, 108, 128);
+    margin-top: 38px;
+    width: 195px;
+    display: none;
+}
+
+.menu2 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: tahoma;
+  text-decoration: none
+}
+
+.menu2 li:hover .submenu{
+    display: block;
+    background: static;
+    
+}
+
+#uno{
+    width: 900px;
+    height: 370px; 
+    border: 0px solid;
+    margin-top: 20px;
+}
+
+.major{
+    color: rgb(0, 108, 128);
+    text-align: center;
+    font-size: 30px;
+    font-family: tahoma;
+
+}
+
+#dos{
+    border: 0px solid #000000;
+    width: 900px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.con_2{
+    margin-top: 20px;
+    
+}
+
+.sub_t{
+    color: rgb(0, 108, 128);
+    margin: 5px;
+    margin-top: 15px;
+
+}
+
+.text{
+    color: #fff;
+    font-family: arial;
+    margin: 5px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.tit_p{
+    color: rgb(0, 108, 128);
+    font-size: 18px;
+}
+
+#hello{
+    width: 900px;
+    height: auto;
+    border: 0px solid #000000;
+    margin-top: 25px;
+} 
+
+#tres{
+    border: 0px solid #000000;
+    width: 900px;
+    height: 229px;
+    margin-top: 15px;
+}
+
+.hi{
+    width: 410px;
+    height: 220px;
+    border: 3px solid #022046;
+    margin: 5px;
+    float: left;
+    background-color: rgb(80, 124, 138);
+}
+
+.piu{
+    text-align: center;
+    color: #002d4b;
+}
+
+.bye{
+    width: 410px;
+    height: 220px;
+    border: 3px solid #022046;
+    margin: 5px;
+    float: right;
+    background-color: rgb(80, 124, 138);
+}
+
+.doyu{
+    color: #fff;
+    text-align: justify;
+    margin: 5px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+#pio{
+    width: 900px;
+    height: auto;
+    border: 0px solid #000000;
+    margin-top: 25px;
+}
+
+#cuarto{
+    border: 0px solid #000000;
+    width: 900px;
+    height: 229px;
+    margin-top: 15px;
+}
+
+
+
+.hyp{
+    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(109, 109, 109);
+    transition: background 0.6s, color 0.6s;
+}
+
+.hyp:hover{
+    color: rgb(78, 2, 19);
+}
+
+.ir{
+    color: rgb(78, 2, 19);
+}
+
+#quinto{
+    border: 0px solid #000000;
+    width: 900px;
+    height: 229px;
+    margin-top: 15px;
+}
+
+#sexto{
+    border: 0px solid #000000;
+    width: 900px;
+    height: 240px;
+    margin-top: 15px;
+}
+
+#pie{
+    border: 3px solid #152947;
+    width: auto;
+    height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.pie3{
+    margin-top: 5px;
+}

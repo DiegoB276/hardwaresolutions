@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #cecece;
+}
+
+#principal{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px;
+    margin: auto;
+    background: #36383a;
+
+
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    border: 0px solid #000;
+
+}
+
+#logo{
+    width: 190px;
+    height: 100px;
+    border: 0px solid #000;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: Tahoma;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu{
+    width: 690px;
+    height: 55px;
+    border: 0px solid #ccc;
+    float: right;
+    background: #ff5100;
+    margin-top: 20px;
+
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+    border: 0px solid #ccc;
+    color: #fff;
+    float: right;
+    margin-top: 5px;
+
+}
+
+.menu ul li a:hover{
+    background: #742f02;
+    transition: background 1s, color 1s;
+
+}
+
+#componentes{
+    width: 900px;
+    height: 365px; 
+    border: 0px solid;
+    margin-top: 20px;
+}
+
+.titul{
+    text-align: center;
+    color: #ec3700;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    margin-block-end: 20px;
+}
+
+.secundario{
+    color: rgb(3, 100, 129);
+    font-family: Tahoma;
+}
+
+#proces{
+    width: 900px;
+    height: 470px; 
+    border: 0px solid;
+    
+}
+
+.one{
+    width: 435px;
+    height: 450px;
+    border: 0px solid #ec3700;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.two{
+    width: 435px;
+    height: 450px;
+    border: 0px solid #ec3700;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.ir{
+    color: rgb(0, 164, 214);
+    text-decoration: none;
+}
+
+.ir:hover{
+    background: #ec3700;
+    transition: background 1s, color1s;
+    color: #fff;
+}
+
+#Graficos{
+    width: 900px;
+    height: 200px;
+    border: 0px solid;
+    margin-top: 10px;
+}
+
+#graf{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin-top: 10px;
+}
+
+.three{
+    width: 435px;
+    height: 450px;
+    border: 0px solid #ec3700;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+} 
+
+.eyes{
+    width: 435px;
+    height: 450px;
+    border: 0px solid #ec3700;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    color: #fff;  
+}
+
+#Discos{
+    width: 900px;
+    height: 400px; 
+    border: 0px solid;
+    margin-top: -20px; 
+}
+
+#hard{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin-top: 10px;
+}
+
+.mecanico{
+    width: 435px;
+    height: 450px;
+    border: 0px solid #ec3700;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.well{
+    width: 435px;
+    height: 450px;
+    border: 0px solid #ec3700;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+#memory{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin-top: 10px; 
+}
+
+.kingston{
+    width: 435px;
+    height: 450px;
+    border: 0px solid #ec3700;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.adata{
+    width: 435px;
+    height: 450px;
+    border: 0px solid #ec3700;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+#foot{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+}
+
+.pie{
+    width: 900px;
+    height: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    
+}
+
+#multi{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: solid;
+
+}
+
+.videoxd{
+    width: 900px;
+    height: 380px;
+    border: 0px solid;
+}
+
+.videoxd2{
+    width: 305px;  
+    height: 200px; 
+    margin: 15px;
+}
+
+.videoxd3{
+    width: 305px;  
+    height: 200px; 
+    margin: 15px; 
+}
+
+#combinaciones{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin-top: 25px;
+
+}
+
+.text{
+    color: #fff;
+    text-align: justify;
+    margin: 5px;
+    margin-right: 5px;
+    
+}
+
+.submenu{
+    position: absolute;
+    background:#ff5100;
+    margin-top: 37px;
+    width: 195px;
+    display: none;
+}
+
+.menu2 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: tahoma;
+  text-decoration: none
+}
+
+.menu2 li:hover .submenu{
+    display: block;
+    background: static;
+    
+}
+
+.con{
+    color: #008bc2;
+    margin-top: 30px;
+    font-size: 30px;
+    
+
+}
+
+.img_b{
+    margin-top: 10px;
+}
