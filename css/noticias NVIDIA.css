@@ -205,3 +205,18 @@ header{
     height: 240px;
     margin-left: 88px;
 }
+
+#pie{
+    border: 2px solid #000000;
+    width: auto;
+    height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-top: 2924px;
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0)
+}
+
+.pie3{
+    margin-top: 5px;
+}
