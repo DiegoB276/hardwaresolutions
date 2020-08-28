@@ -4,7 +4,9 @@
     font-family: arial;
 }
 body{
-    background-color: #cecece;
+    background: url("../img/body_back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
