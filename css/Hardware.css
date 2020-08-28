@@ -247,6 +247,7 @@ header{
     width: 900px;
     height: auto; overflow: hidden;
     border: solid;
+    margin-top: 20px;
 
 }
 
@@ -316,4 +317,24 @@ header{
 
 .img_b{
     margin-top: 10px;
+}
+
+#other{
+ width: 900px;
+ height: auto;
+ border: 1px solid;
+}
+
+.more{
+    color: rgb(0, 137, 201);
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: arial;
+    margin: 5px;
+}
+
+.more:hover{
+    color: rgb(223, 119, 0);
+    transition: 1s;
 }
