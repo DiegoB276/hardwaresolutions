@@ -47,7 +47,7 @@ header{
     float: right;
     background: #0ea800;
     margin-top: 20px;
-
+    border-radius: 8px;
 }
 
 .menu ul li{
@@ -64,7 +64,7 @@ header{
     color: #fff;
     float: right;
     margin-top: 5px;
-
+    border-radius: 8px;
 }
 
 .menu ul li a:hover{
@@ -79,6 +79,7 @@ header{
     margin-top: 38px;
     width: 195px;
     display: none;
+    border-radius: 8px;
 }
 
 .menu2 li a{
@@ -131,27 +132,28 @@ header{
 .compu_der{
    margin-left: 300px;
    margin-top: 15px;
-
+   border-radius: 8px;
 }
 
 .compu_iz{
     margin-left: 260px;
     margin-top: 15px;
-
+    border-radius: 8px;
 }
 
 .foot{
     width: auto;
-    height: 15px;
-    border: 0px solid #000;
+    height: 17px;
+    border: 1px solid #000;
     text-align: center;
     color: #fff;
-    margin: 5px;
     font-family: arial;
+    margin-top: 20px;
 }
 
 .compu_up{
     margin-left: 260px; 
-    margin-top: 15px;  
+    margin-top: 15px; 
+    border-radius: 8px; 
 }
 
