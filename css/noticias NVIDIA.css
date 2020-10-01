@@ -49,7 +49,7 @@ header{
     float: right;
     background: #0ead00;
     margin-top: 20px;
-
+    border-radius: 8px;
 }
 
 
@@ -67,7 +67,7 @@ header{
     color: #fff;
     float: right;
     margin-top: 10px;
-
+    border-radius: 8px;
 }
 
 .menu ul li a:hover{
@@ -83,6 +83,7 @@ header{
     margin-top: 38px;
     width: 195px;
     display: none;
+    border-radius: 8px;
 }
 
 .menu2 li a{
@@ -157,6 +158,7 @@ header{
     width: 410px;
     height: 280px;
     margin-left: 88px;
+    border-radius: 8px;
 }
 
 .catm{
@@ -174,12 +176,14 @@ header{
     width: 410px;
     height: 220px;
     margin-left: 88px;
+    border-radius: 8px;
 }
 
 .dirt{
     width: 480px;
     height: 280px;
     margin-left: 43px;
+    border-radius: 8px;
 }
 
 .med{
@@ -205,6 +209,7 @@ header{
     width: 420px;
     height: 240px;
     margin-left: 88px;
+    border-radius: 8px;
 }
 
 #pie{
