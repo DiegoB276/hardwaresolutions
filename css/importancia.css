@@ -49,7 +49,7 @@ header{
     float: right;
     background: rgb(0, 108, 128);
     margin-top: 20px;
-
+    border-radius: 8px;
 }
 
 
@@ -67,7 +67,7 @@ header{
     color: #fff;
     float: right;
     margin-top: 10px;
-
+    border-radius: 8px;
 }
 
 .menu ul li a:hover{
@@ -83,6 +83,7 @@ header{
     margin-top: 38px;
     width: 195px;
     display: none;
+    border-radius: 8px;
 }
 
 .menu2 li a{
@@ -151,7 +152,9 @@ header{
     height: auto;
     border: 0px solid #000000;
     margin-top: 25px;
-} 
+    
+}
+
 
 #tres{
     border: 0px solid #000000;
@@ -167,6 +170,7 @@ header{
     margin: 5px;
     float: left;
     background-color: rgb(80, 124, 138);
+    border-radius: 8px;
 }
 
 .piu{
@@ -181,6 +185,7 @@ header{
     margin: 5px;
     float: right;
     background-color: rgb(80, 124, 138);
+    border-radius: 10px;
 }
 
 .doyu{
@@ -242,6 +247,7 @@ header{
     text-align: center;
     color: #fff;
     margin-top: 20px;
+    
 }
 
 .pie3{
