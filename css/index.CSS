@@ -51,7 +51,7 @@ header{
     float: right;
     background: #0ea800;
     margin-top: 20px;
-
+    border-radius: 8px;
 }
 
 
@@ -69,7 +69,7 @@ header{
     color: #fff;
     float: right;
     margin-top: 10px;
-
+    border-radius: 8px;
 }
 
 .menu ul li a:hover{
@@ -93,10 +93,15 @@ header{
     font-size: 15px;
 }
 
+#categorias img{
+    border-radius: 8px;
+}
+
 .uno{
     width: 290px;
     height: 290px;
     border: 1px solid #0ead00;
+    border-radius: 8px;
     float: left;
     padding: none;
     text-align: center;
@@ -142,6 +147,7 @@ header{
 .imagen{
     margin-right: 7px;
     margin-bottom: 7px;
+    border-radius: 8px;
 }
 
 #izq{
@@ -164,6 +170,10 @@ header{
     color: #fff;
 } 
 
+#der img{
+    border-radius: 8px;
+}
+
 #tit{
     color: #0ea800;
 }
@@ -178,6 +188,7 @@ header{
     margin-top: 38px;
     width: 195px;
     display: none;
+    border-radius: 8px;
 }
 
 .menu2 li a{
@@ -185,7 +196,8 @@ header{
   padding: 15px;
   color: #fff;
   font-family: tahoma;
-  text-decoration: none
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 .menu2 li:hover .submenu{
