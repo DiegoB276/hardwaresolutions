@@ -50,7 +50,7 @@ header{
     float: right;
     background: #db0202;
     margin-top: 20px;
-
+    border-radius: 8px;
 }
 
 
@@ -68,7 +68,7 @@ header{
     color: #fff;
     float: right;
     margin-top: 5px;
-
+    border-radius: 8px;
 }
 
 .menu ul li a:hover{
@@ -100,6 +100,10 @@ header{
     padding: 5px;
     text-align: center;
     color: #fff;
+}
+
+.mision img{
+    border-radius: 8px;
 }
 
 .vision{
@@ -148,6 +152,14 @@ header{
     opacity: 0.7;
   }
 
+.multip{
+    border-radius: 10px;
+}
+
+.gone{
+    margin-top: 20px;
+}
+
 #contact{
     width: auto;
     height: 100px;
@@ -171,6 +183,7 @@ header{
     margin-top: 37px;
     width: 195px;
     display: none;
+    border-radius: 8px;
 }
 
 .menu2 li a{
