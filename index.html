@@ -2,104 +2,84 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.CSS">
-    <title>Bienvenidos - Hardware Solutions</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>NekoAmai | Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/icono.png" type="image/png">
 </head>
 <body>
-    <div id="principal">
-        <header>
-            <div id="logo">
-                <h1 class="titulo">Hardware Solutions</h1>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+    
+      <div class="container">
+        <!-- Navigation -->
+        <nav class="nav-main">
+          <!-- Brand -->
+          <a href="index.html"> <img src="img/logo1.png" alt="TechNews Logo" class="nav-brand"></a>
+          <!-- Left Nav -->
+          <ul class="nav-menu">
+            <li>
+              <a href="index.html"><strong> Inicio</strong></a>
+            </li>
+            <li>
+                <a href="#"><strong>Contenido</strong></a>
+            </li>
+            <li>
+                <a href="#"><strong> Nosotros</strong></a>
+            </li>
+
+          </ul>
+        </nav>
+        <hr>
+
+        <section class="showcase">
+            <h2>Bienvenidos a NekoAmai</h2>
+            <h3>Conozcamos todo sobre la cultura Japonesa y otras culturas similares </h3>
+        </section><br>
+
+            <section class="tittle-japan">
+                <h2>Conoce sobre Japón</h2>
+            </section> 
+
+            <div class="news-cards">
+            <div class="japan_destinity">
+                <h2>  - japón como destino turístico</h2>
+                <img src="img/japan-destinity.jpg" alt="">
+                <p>Japón es uno de los paises en el cual la gente que tiene curiosidad sobre su cultura y la cultura de algunos paises asiáticos, 
+                    son más visitados en vacaciones debido a sus grandes paisajes y a su emotiva salud social. <a href="">Leer Más</a>
+                </p>
             </div>
 
-            <nav class="menu">
-                <ul class="menu2">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="paginas/Quienes Somos.html">Quiénes Somos</a></li>
-                    <li><a href="paginas/Hardware.html">Hardware</a></li>
-                    <li><a href="paginas/Importancia del Hardware.html">Importancia del Hardware</a>  </li>
-                    <li><a href="">Enlaces de Compra</a>
-                        <ul class="submenu">
-                            <li><a href="http://www.nvidia.com/es-es/geforce/buy/" target="_blank" rel="noopener noreferrer">Pagina de Nvidia</a></li>
-                            <li><a href="http://www.amd.com/es" target="_blank" rel="noopener noreferrer">Pagina de AMD</a></li>
-                            <li><a href="http://www.intel.la/content/www/xl/es/products/processors/core.html" target="_blank" rel="noopener noreferrer">Pagina de Intel</a></li>
-                            <li><a href="http://www.evga.com/products/productlist.aspx?type=10" target="_blank" rel="noopener noreferrer">Página de EVGA</a></li>
-                            <li><a href="http://www.benq.com/es-co/monitor.html" target="_blank" rel="noopener noreferrer">Pagina de BenQ</a></li>
-                        </ul>
-                </li>
-                </ul>
-            </nav>
-        </header>
-        <section id="slide">
-            <img src="img/procesador.jpg" width="900" height="250">
-        </section>
-        <section id="categorias">
-            <section class="uno">
-                <img src="img/computadora.jpg" width="289" height="150">
-                <h3 id="tit">Importancia de las computadoras</h3>
-                <p>
-                    Las computadoras se han vuelto una importante herramienta en nuestra
-                    vida diaria ya que las utilizamos en los centros educativos, empresas
-                    locales, etc.
+            <div class="japan_fest">
+                <h2>- Japón: Festivales, costumbres y más</h2>
+                <img src="img/japan-fest.jpg" alt="">
+                <p>Los festivales en Japón son uno de los mayores atractivos y uno de los hechos ás famosos en este país. la cultura japonesa tiene la 
+                    costumbre de realizar festivales de fuegos artificiales como visitas a los templos. <a href="">Leer Más</a>
                 </p>
-                <a href="paginas/Importancia_de_las_computadoras.html" class="leer-mas">Leer más</a><br>
-            </section>
-            <section class="uno dos">
-                <img src="img/amd.jpg" width="289" height="150">
-                <h3 id="tit">Noticias de AMD</h3>
-                <p>Mantente al tanto de las novedades de una de las marcas mundialmente
-                    reconocidas en el mundo de la computacion, exacto hablamos de AMD.
-                </p>
-                <a href="paginas/noticias AMD.html" class="leer-mas">Leer más</a><br>
-            </section>
-            <section class="uno tres">
-                <img src="img/nvidia.jpg" width="280" height="150">
-                <h3 id="tit">Noticias de Nvidia</h3>
-                <p>
-                    Nvidia la marca mundialmente reconocida y más utilizada en el mundo de 
-                    los ordenadores, síguela para mantenerte al tanto de sus últimos lanzamientos.
-                </p>
-                <a href="paginas/noticias NVIDIA.html" class="leer-mas">Leer más</a><br>
-            </section>
-        </section><!--/categorias-->
-        <section id="info">
-            <section id="izq">
-                <p>
-                    <img src="img/compu.jpg" align="left" width="180" height="150" class="imagen">
-                    <h2 id="tit">Recuerda</h2>
-                    Los ordenadores o computadores tienen la tarea de facilitarnos las actividades
-                    en el dia a dia, cada una de ellas son importantes, como realizar programas, 
-                    trabajos de oficina, utilizarlo como medio autodidáctico en la educación y para muchas
-                    mas cosas. Los computadores poseen componentes externos, estos componentes se pueden cambiar 
-                    al gusto del usuario para mejorar su rendimiento. Estos computadores poseen potentes procesadores, tarjetas graficas, grandes capacidades de memoria RAM, 
-                    y lo mas importante una buena tarjeta madre que pueda soportar todos estos componentes, y el gabinete donde
-                     se guardan todos los componentes, este está fabricado en fibra de vidrio. 
-                </p>
-               
-            </section>
-            <section id="der">
-                <h2 id="tit">Objetivo</h2>
-                <img src="img/pc.jpg" width="270" height="130">
-                <p>
-                  Que las personas puedan realizar una buena combinacion a la hora de armar o modificar un ordenador ya que así
-                  les funcionará todo correctamente.</p>
+            </div>
 
-            </section>
-        </section>
+            <div class="japan_life">
+                <h2>- Hospedaje y estilo de vida japonés</h2>
+                <img src="img/japan-stile.jpg" alt="">
+                <p>El hospedaje en Japón es muy diferente a lo que estamos acostumbrados, Japón posee distintos tipos de alojamientos, algunos no se ven en nuestros paises así que 
+                    esto va a ser muy interesante si vas de turismo y decides hospedarte en un hotel en Japón. <a href="">Leer Más</a>
+                </p>
+            </div>
 
-        <section id="end">
-            <footer>
-                <p class="pie2"> © Copyright. Todos los derechos reservados. Diego_Fernandez - 2020. </p>
-            </footer>
-        </section>
-        
+            <div class="japan-food">
+                <h2>- Platos típicos japoneses</h2>
+                <img src="img/japan-food.jpg" alt="">
+            </div>
     </div>
-
-    </div>
-    
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
-
-
