@@ -116,8 +116,9 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 25px;
-    margin: 70px 0px;
+    margin: 70px px;
     border: 0px solid #000;
+    text-align: center;
   }
   
   .news-cards img {
@@ -165,12 +166,12 @@ ul {
       margin-right: 19px;
     }
   
-    .showcase h2 {
+    .showcase h2{
         font-size: 50px;
     }
 
     .showcase h3{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .menu-btn:hover {
@@ -283,16 +284,33 @@ ul {
 
     .showcase h2{
       margin: 5px;
-      font-size: 22px;
+      font-size: 30px;
     }
 
-    .showcase p{
-      margin: 5px;
-      font-size: 17px;
+    .showcase h3{
+      font-size: 24px;
+    }
+
+    .tittle-japan h2{
+      font-size: 20px;
+      width: 370px;
     }
   
     .news-cards {
       grid-template-columns: 1fr;
-      
+      width: 370px;
+    }
+
+    .news-cards h2{
+      width: 360px;
+    }
+
+    .news-cards img{
+      width: 360px;
+      margin-left: -25px;
+    }
+
+    .news-cards p{
+      width: 370px;
     }
   }
